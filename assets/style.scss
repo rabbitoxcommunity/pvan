@@ -1,0 +1,377 @@
+.pvan__homebanner {
+    .contents {
+        &.pad-60 {
+            padding: 60px;
+        }
+
+        img {
+            width: 100%;
+            height: 87vh;
+            object-fit: cover;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    }
+}
+
+section.about__specialization {
+    background-color: var(--primary-color);
+
+    img.main {
+        -webkit-mask-image: url('./img/mask.png');
+        mask-image: url('./img/mask.png');
+        mask-repeat: no-repeat;
+        mask-size: contain;
+        mask-position: center;
+    }
+
+    .content {
+        h2 {
+            color: #E3E5E9;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 34.596px;
+            color: rgb(227, 229, 233, .8);
+        }
+    }
+
+    // FOR SERVICE PAGE
+    .service__grid {
+        border-radius: 20px;
+        background: #FFF;
+        padding: 60px;
+
+        h2,
+        p {
+            color: var(--primary-color);
+        }
+    }
+}
+
+.pvan_services {
+    .row {
+        padding-top: 8%;
+    }
+
+    .title {
+        h6 {
+            font-size: 25px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+        }
+    }
+
+    .content {
+        img {
+            height: 650px;
+            object-fit: cover;
+            border-radius: 20px;
+            width: 100%;
+            object-position: top;
+        }
+    }
+
+
+    .details {
+        &.pl {
+            padding: 50px 0px 0px 40px;
+        }
+
+        &.pr {
+            padding: 50px 90px 0px 0px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            padding-bottom: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 34.596px;
+            color: #19402DCC;
+        }
+
+        ul {
+            padding-left: 20px;
+
+            li {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 34.596px;
+                color: #19402DCC;
+            }
+        }
+    }
+}
+
+/*--------------------------------------------------------------
+# Global Footer
+--------------------------------------------------------------*/
+
+.pvan__footer {
+    background-color: var(--primary-color);
+    padding: 100px 0;
+
+    .widget {
+        h3.widget-heading {
+            color: #E3E5E9;
+            font-size: 65.395px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 68.837px;
+            margin-bottom: 0;
+        }
+
+        .btn-secondary {
+            padding: 0px 70px !important;
+            font-size: 20px;
+            line-height: 68.74px;
+            border-radius: 11.646px;
+        }
+    }
+
+    .bottom__footer {
+        border-radius: 16px;
+        background: #092E26;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        padding: 5% 10%;
+        margin-top: 70px;
+        min-height: 350px;
+
+        .logo {
+            text-align: left;
+
+            h4 {
+                color: #F1F7F3;
+                font-size: 32.847px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 37.131px;
+                letter-spacing: -0.526px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: -0.288px;
+                width: 60%;
+                margin-bottom: 0;
+            }
+        }
+
+        .quick__links {
+            ul {
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                gap: 30px;
+                list-style-type: none;
+
+                li {
+                    a {
+                        color: #FFF;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 31.724px;
+                        letter-spacing: -0.288px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+// Services
+
+.pvan__innerpage {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &.about {
+        height: 50vh;
+    }
+
+    h1 {
+        color: #0D382F;
+        text-align: center;
+        font-size: 56.535px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 63.909px;
+        letter-spacing: -0.678px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: rgba(13, 56, 47, 0.95);
+        text-align: center;
+        font-size: 21.852px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 31.586px;
+        letter-spacing: -0.262px;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+.personal__protective {
+    background: #fff;
+    padding: 60px 0;
+
+    h2 {
+        color: var(--primary-color);
+    }
+
+    p {
+        color: #19402D;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34.596px;
+        margin-bottom: 30px;
+    }
+    .equipment{
+        img {
+            height: 170px;
+            width: 100%;
+            object-fit: contain;
+            margin-top: 30px;
+            border: 1px solid #EDEDED;
+            padding: 20px;
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+
+
+}
+
+
+// ABOUT US
+section.pvan__about {
+    .banner__section {
+        position: relative;
+
+        img {
+            width: 100%;
+            border-radius: 20px;
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .contents {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 70px;
+            position: absolute;
+            left: 44%;
+            transform: translate(-50%, -50%);
+            width: 74%;
+
+            h2 {
+                color: #19402D;
+                font-size: 42.471px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 53.876px;
+                letter-spacing: -0.98px;
+                width: 80%;
+            }
+        }
+    }
+
+    .description {
+        padding-top: 24%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        p {
+            color: #19402D;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29.387px;
+        }
+    }
+}
+
+
+.contact__image{
+    img{
+        height: 87vh;
+        object-fit: cover;
+    }
+}
+.contact__grid {
+    padding-left: 10%;
+    margin-right: 5%;
+    .arrow__back{
+        margin-bottom: 20%;
+        display: inline-block;
+        cursor: pointer;
+        img{
+            height: 45px;
+        }
+    }
+
+    h4 {
+        color: #19402D;
+        font-size: 24px;
+        letter-spacing: -0.546px;
+        margin-bottom: 15px;
+    }
+
+    .form-group {
+        border-radius: 12px;
+        border: 1px solid #000;
+        background: #FFF;
+        padding: 18px 0;
+        margin-bottom: 12px;
+
+        .form-check-input {
+            width: 20px;
+            height: 20px;
+            margin-right: 14px;
+        }
+
+        label.form-check-label {
+            display: flex;
+            gap: 10px;
+            color: #19402D;
+            font-size: 20px;
+            letter-spacing: -0.36px;
+            align-items: center;
+
+            img {
+                height: 20px;
+            }
+        }
+    }
+}

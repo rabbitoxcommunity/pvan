@@ -1,0 +1,296 @@
+@media only screen and (max-width: 600px) {
+  .row-cols-5 > * {
+    flex: 0 0 auto;
+    width: 33.33%;
+  }
+  .sm-pad-12 {
+    padding: 0 12px !important;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 36px !important;
+    line-height: 1.2 !important;
+  }
+  .sm-reverse {
+    flex-direction: column-reverse;
+  }
+  header .logo img {
+    max-height: 40px !important;
+  }
+  .btn-primary, button.btn.btn-secondary {
+    padding: 12px 15px !important;
+    font-size: 14px;
+  }
+  .btn-next {
+    padding: 12px 25px !important;
+  }
+  .pvan__homebanner {
+    padding-top: 10%;
+  }
+  .pvan__homebanner .contents img {
+    height: auto;
+  }
+  .pvan__homebanner .contents.pad-60 {
+    padding: 11px;
+    padding-bottom: 10%;
+  }
+  .pvan__homebanner .contents.pad-60 p {
+    font-size: 14px;
+  }
+  .pvan__homebanner .col-md-6.pe-0 {
+    padding-left: 0;
+  }
+  section.about__specialization .content {
+    margin-bottom: 20px;
+  }
+  section.about__specialization .content p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .pvan_services .details.pr, .pvan_services .details.pl {
+    padding: 0;
+  }
+  .pvan_services .details.pr p, .pvan_services .details.pl p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .pvan_services .details.pr ul li, .pvan_services .details.pl ul li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .pvan_services .content img {
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  .pvan__footer .widget .btn-secondary {
+    padding: 0px 30px !important;
+    font-size: 18px;
+    line-height: 54.74px;
+    border-radius: 11.646px;
+  }
+  .pvan__footer .widget h3.widget-heading {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  .pvan__footer .logo p {
+    width: 70%;
+  }
+  .pvan__footer .bottom__footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .pvan__innerpage h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .pvan__innerpage p {
+    font-size: 16px;
+    line-height: 1.3;
+    width: 100%;
+  }
+  section.about__specialization.pad {
+    padding-top: 0;
+  }
+  section.about__specialization.pad .service__grid {
+    padding: 30px;
+  }
+  section.pvan__about .description {
+    padding-top: 40%;
+    padding-right: 0;
+  }
+  section.pvan__about .banner__section .contents {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    left: 3%;
+    transform: translate(0, -50%);
+    width: 93%;
+  }
+  section.pvan__about .banner__section .contents h2 {
+    font-size: 23px !important;
+    line-height: 1.3 !important;
+    width: 100%;
+  }
+  section.pvan__about .banner__section .contents h2 br {
+    display: none;
+  }
+  section.pvan__about .banner__section img {
+    height: 340px;
+  }
+  .personal__protective img {
+    margin-top: 0;
+    height: 130px;
+  }
+  .personal__protective p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .contact__image img {
+    height: 50vh;
+    margin-top: 30px;
+  }
+  .contact__grid {
+    padding-left: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .contact__grid .arrow__back img {
+    height: 35px;
+  }
+  .personal__protective .equipment img {
+    height: 110px;
+    margin-top: 10px;
+  }
+  .personal__protective .equipment p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .col-tab-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .col-tab-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .row-cols-5 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .personal__protective .equipment p {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .personal__protective .equipment img {
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.678px;
+    color: var(--primary-color);
+  }
+  h2 {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -1.153px;
+  }
+  .pvan__homebanner .contents.pad-60 {
+    padding: 10px;
+  }
+  .pvan__homebanner .contents.pad-60 p {
+    font-size: 14px;
+  }
+  .pvan__homebanner .contents.pad-60 img {
+    height: auto;
+  }
+  .pvan__homebanner .contents img {
+    height: auto;
+  }
+  .btn-primary, .btn-secondary {
+    font-size: 14px;
+    padding: 13px 16px !important;
+  }
+  section.about__specialization .content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27.596px;
+  }
+  .pvan_services h2 {
+    padding-bottom: 20px !important;
+  }
+  .pvan_services .details.pr {
+    padding-right: 0;
+  }
+  .pvan_services .details.pl {
+    padding-left: 0;
+  }
+  .pvan_services .details p, .pvan_services .details ul li {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .pvan_services .content img {
+    height: 360px;
+  }
+  .pvan__footer .widget .btn-secondary {
+    padding: 0px 36px !important;
+    font-size: 16px;
+    line-height: 60px;
+    border-radius: 11.646px;
+  }
+  .pvan__footer .widget h3.widget-heading {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .pvan__footer .bottom__footer {
+    min-height: 250px;
+  }
+  .pvan__innerpage {
+    height: 30vh;
+  }
+  .pvan__innerpage h1 {
+    color: #0D382F;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -0.678px;
+    margin-bottom: 15px;
+  }
+  .pvan__innerpage.about {
+    height: 40vh;
+  }
+  .pvan__innerpage p {
+    width: 70%;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  section.pvan__about .banner__section img {
+    height: 430px;
+  }
+  section.pvan__about .banner__section .contents {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 94%;
+  }
+  section.pvan__about .banner__section .contents h2 {
+    width: 100%;
+    font-size: 35px;
+    line-height: 42px;
+  }
+  section.pvan__about .banner__section .contents h2 br {
+    display: none;
+  }
+  .contact__image img {
+    height: 60vh;
+  }
+  .contact__grid .arrow__back img {
+    height: 38px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .pvan__innerpage.about {
+    height: 20vh;
+  }
+  section.about__specialization.pad {
+    padding-bottom: 40px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
