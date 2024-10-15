@@ -31,7 +31,7 @@
     padding-top: 10%;
   }
   .pvan__homebanner .contents img {
-    height: auto;
+    height: 50vh;
   }
   .pvan__homebanner .contents.pad-60 {
     padding: 11px;
@@ -81,7 +81,7 @@
   }
   .pvan__footer .bottom__footer {
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-around;
   }
   .pvan__innerpage h1 {
@@ -92,9 +92,6 @@
     font-size: 16px;
     line-height: 1.3;
     width: 100%;
-  }
-  section.about__specialization.pad {
-    padding-top: 0;
   }
   section.about__specialization.pad .service__grid {
     padding: 30px;
@@ -116,9 +113,6 @@
     font-size: 23px !important;
     line-height: 1.3 !important;
     width: 100%;
-  }
-  section.pvan__about .banner__section .contents h2 br {
-    display: none;
   }
   section.pvan__about .banner__section img {
     height: 340px;

@@ -31,7 +31,7 @@
         padding-top: 10%;
         .contents{
             img{
-                height: auto;
+                height: 50vh;
             }
             &.pad-60{
                 padding: 11px;
@@ -93,7 +93,7 @@
         }
         .bottom__footer{
             flex-direction: column;
-            align-items: center;
+            align-items: baseline;
             justify-content: space-around;
         }
     }
@@ -112,7 +112,6 @@
         .service__grid{
             padding: 30px;
         }
-        padding-top: 0;
     }
     section.pvan__about{
         .description{
@@ -132,9 +131,9 @@
                     font-size: 23px !important;
                     line-height: 1.3 !important;
                     width: 100%;
-                    br{
-                        display: none;
-                    }
+                    // br{
+                    //     display: none;
+                    // }
                 }
             }
         }
